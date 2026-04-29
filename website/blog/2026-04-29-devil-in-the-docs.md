@@ -112,4 +112,4 @@ That's where docs are now. A developer asks an AI a question and gets an answer 
 
 We're no longer moving at a glacial pace. The current runs _fast_. And the devil? Well, it's in the docs.
 
-*Mirna Wong is a technical writer at dbt Labs who loves em-dashes, pop culture references, and writing about dbt and AI. dbt's product docs are open source &mdash; contributions and issues are **always** welcome at [github.com/dbt-labs/docs.getdbt.com](https://github.com/dbt-labs/docs.getdbt.com).*
+*Mirna Wong is a technical writer at dbt Labs who loves em-dashes, pop culture references, and writing about dbt and AI. dbt's product docs are open source &mdash; contributions and issues are **always** welcome at [github.com/dbt-labs/docs.getdbt.com](https://github.com/dbt-labs/docs.getdbt.com/issues).*
