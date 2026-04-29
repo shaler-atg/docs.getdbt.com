@@ -102,7 +102,7 @@ This is the first page of many in this new chapter. But there are a few things o
 
 - If you're already connected to the dbt MCP server, the product docs tools are available now. Check out the [MCP available tools reference](https://docs.getdbt.com/docs/dbt-ai/mcp-available-tools?version=2.0#product-docs) for details.
 
-We'd love to hear your feedback! Open an issue at [github.com/dbt-labs/docs.getdbt.com](https://github.com/dbt-labs/docs.getdbt.com) to flag any bugs, typos, wrong info, etc. &mdash; or find me in the [dbt community Slack](https://www.getdbt.com/community/join-the-community). 
+We'd love to hear your feedback! Open an issue at [github.com/dbt-labs/docs.getdbt.com](https://github.com/dbt-labs/docs.getdbt.com/issues) to flag any bugs, typos, wrong info, etc. &mdash; or find me in the [dbt community Slack](https://www.getdbt.com/community/join-the-community). 
 
 ## Conclusion
 
