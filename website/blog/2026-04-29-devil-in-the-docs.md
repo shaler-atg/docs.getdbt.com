@@ -31,7 +31,7 @@ That was the [dbt MCP server's](https://docs.getdbt.com/docs/dbt-ai/about-mcp) r
 
 So when an agent was asked *"how do I configure incremental models?"*, it improvised or used training data, pattern matching, best guess. The docs kinda existed. The path to them didn't.
 
-<Lightbox src="/img/blog/2026-04-30-the-devil-in-the-docs/dwp-meme.png" title="Miranda mad at AI for hallucinating about incremental models" />
+<Lightbox src="/img/blog/2026-04-30-the-devil-is-in-the-docs/dwp-meme.png" title="Miranda mad at AI for hallucinating about incremental models" />
 
 ## The research: what the data actually showed
 
