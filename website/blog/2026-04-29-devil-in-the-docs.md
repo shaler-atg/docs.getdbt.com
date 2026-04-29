@@ -89,7 +89,7 @@ For analysts exploring a shared project, it means understanding what a model doe
 
 ## What's next
 
-This is the first page of any in this new chapter. But there are a few things on the radar for the next pages as we continue to try to improve the docs experience:
+This is the first page of many in this new chapter. But there are a few things on the radar for the next pages as we continue to try to improve the docs experience:
 
 - **Version-aware docs fetching** &mdash; Right now these tools return current docs. A developer on dbt Core 1.10 asking about incremental strategies gets 2026 docs. Version-aware routing &mdash; returning the right page for the right dbt version &mdash; is the next meaningful improvement, and we're [working](https://github.com/dbt-labs/dbt-mcp/pull/638) through it now!
 - **Smarter search ranking** &mdash; Relevance is good. Relevance tuned to dbt-specific concepts and query patterns would be better.
