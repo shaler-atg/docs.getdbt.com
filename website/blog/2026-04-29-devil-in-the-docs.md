@@ -29,7 +29,7 @@ That was the [dbt MCP server's](https://docs.getdbt.com/docs/dbt-ai/about-mcp) r
 - The open source documentation at [docs.getdbt.com](https://docs.getdbt.com) is carefully maintained (jointly by the docs team _and_ our amazing dbt community), up-to-date, and formatted for humans, of course. And now machine consumption: there's an `llms.txt` index, a full-content flat file, and markdown output on every page. We have an `AGENTS.md` file that lists how to access the docs via web requests. The source was solid and accessible.
 - The dbt MCP server &mdash; where dbt users interact with dbt through AI tools &mdash; couldn't reach any of it by default. It has eight toolset categories: CLI, Semantic Layer, Discovery, Admin API, SQL, Codegen, Fusion, Server Metadata. But none of them connected to the live docs by default. It didn't have our docs as its canonical source.
 
-So when an agent was asked *"how do I configure incremental models?"*, it improvised or used training data, pattern matching, best guess. The docs kinda existed. The path to them didn't.
+So when an agent was asked *"how do I configure incremental models?"*, it improvised or used training data, pattern matching, best guesses. The docs kinda existed. The path to them didn't.
 
 <Lightbox src="/img/blog/2026-04-30-devil-in-the-docs/dwp-meme.png" width="70%"title="Miranda mad at AI for hallucinating about incremental models" />
 
