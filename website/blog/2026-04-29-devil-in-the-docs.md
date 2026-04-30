@@ -14,7 +14,7 @@ is_featured: true
 
 There's another scene in *The Devil Wears Prada* that I think about more than that one. If you haven't seen the it yet, I'll try not to spoil it for you. Miranda (the character modeled after Anna Wintour) turns to Andy (Andrea Sachs, her assistant) and explains, with _complete_ patience, that the [cerulean blue](https://en.wikipedia.org/wiki/Cerulean) in Andy's "lumpy sweater" didn't come out of thin air &mdash; it's traced back through fashion decisions made years earlier, by people who thought carefully about every choice. The whole chain, invisible to Andy, was built on deliberate _curation_.
 
-That iconic scene reminds me of what documentation architecture feels like to me. Users (could be developers, analysts, data engineers, etc.) ask a question, get an answer, keep working. They don't need to see the decisions behind it &mdash; what to include, how to structure it, where the gaps are, what needs updating. But those decisions shape every answer and experience they get, especially the ones coming from AI.
+That iconic scene is how I'd describe documentation architecture. Users (perhaps a developer, analyst, data engineer) have a question, look at the docs, get an answer, keep working. They don't need to see the decisions behind it &mdash; what to include, how to structure it, where the gaps are, what needs updating. But those decisions shape every answer and experience they get, especially the ones coming from AI.
 
 This blog discusses how we as a docs team are trying to bring docs closer to users; and why that architecture matters more than ever in the AI era.
 
@@ -29,7 +29,7 @@ That was the [dbt MCP server's](https://docs.getdbt.com/docs/dbt-ai/about-mcp) r
 - The open source documentation at [docs.getdbt.com](https://docs.getdbt.com) is carefully maintained (jointly by the docs team _and_ our amazing dbt community), up-to-date, and formatted for humans, of course. And now machine consumption: there's an `llms.txt` index, a full-content flat file, and markdown output on every page. We have an `AGENTS.md` file that lists how to access the docs via web requests. The source was solid and accessible.
 - The dbt MCP server &mdash; where dbt users interact with dbt through AI tools &mdash; couldn't reach any of it by default. It has eight toolset categories: CLI, Semantic Layer, Discovery, Admin API, SQL, Codegen, Fusion, Server Metadata. But none of them connected to the live docs by default. It didn't have our docs as its canonical source.
 
-So when an agent was asked *"how do I configure incremental models?"*, it improvised or used training data, pattern matching, best guess. The docs kinda existed. The path to them didn't.
+So when an agent was asked *"how do I configure incremental models?"*, it improvised or used training data, pattern matching, best guesses. The docs kinda existed. The path to them didn't.
 
 <Lightbox src="/img/blog/2026-04-30-devil-in-the-docs/dwp-meme.png" width="70%"title="Miranda mad at AI for hallucinating about incremental models" />
 
@@ -89,7 +89,7 @@ For analysts exploring a shared project, it means understanding what a model doe
 
 ## What's next
 
-This is the first page of many in this new chapter. But there are a few things on the radar for the next pages as we continue to try to improve the docs experience:
+This is the first page of many in this new chapter. But we're planning a few things for the next pages as we continue to try to improve the docs experience:
 
 - **Version-aware docs fetching** &mdash; Right now these tools return current docs. A developer on dbt Core 1.10 asking about incremental strategies gets 2026 docs. Version-aware routing &mdash; returning the right page for the right dbt version &mdash; is the next meaningful improvement, and we're [working](https://github.com/dbt-labs/dbt-mcp/pull/638) through it now!
 - **Smarter search ranking** &mdash; Relevance is good. Relevance tuned to dbt-specific concepts and query patterns would be better.
