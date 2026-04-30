@@ -10,9 +10,9 @@ is_featured: true
 ---
 
 > *"By all means, move at a glacier's pace."*
-> — Miranda Priestly, *The Devil Wears Prada*
+> — Miranda Priestly, *[The Devil Wears Prada](https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_(film))*
 
-There's another scene in *The Devil Wears Prada* that I think about more than that one. If you haven't seen the it yet, I'll try not to spoil it for you. Miranda (the character modeled after Anna Wintour) turns to Andy (her assistant) and explains, with _complete_ patience, that the [cerulean blue](https://en.wikipedia.org/wiki/Cerulean) in Andy's "lumpy sweater" didn't come from nowhere &mdash; it's traced back through fashion decisions made years earlier, by people who thought carefully about every choice. The whole chain, invisible to Andy, was built on deliberate _curation_.
+There's another scene in *The Devil Wears Prada* that I think about more than that one. If you haven't seen the it yet, I'll try not to spoil it for you. Miranda (the character modeled after Anna Wintour) turns to Andy (Andrea Sachs, her assistant) and explains, with _complete_ patience, that the [cerulean blue](https://en.wikipedia.org/wiki/Cerulean) in Andy's "lumpy sweater" didn't come out of thin air &mdash; it's traced back through fashion decisions made years earlier, by people who thought carefully about every choice. The whole chain, invisible to Andy, was built on deliberate _curation_.
 
 That iconic scene reminds me of what documentation architecture feels like to me. Users (could be developers, analysts, data engineers, etc.) ask a question, get an answer, keep working. They don't need to see the decisions behind it &mdash; what to include, how to structure it, where the gaps are, what needs updating. But those decisions shape every answer and experience they get, especially the ones coming from AI.
 
@@ -33,7 +33,7 @@ So when an agent was asked *"how do I configure incremental models?"*, it improv
 
 <Lightbox src="/img/blog/2026-04-30-devil-in-the-docs/dwp-meme.png" width="70%"title="Miranda mad at AI for hallucinating about incremental models" />
 
-## The research: what the data actually showed
+## The research: using the data to make better decisions
 
 Earlier this year we'd been discussing docs data and how AI tools are now fetching them to answer questions. The term 'canonical docs' was mentioned and I struggled to understand what it meant and how it was different from the docs we were already building. But then [Google announced their new docs API and MCP server](https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server/) &mdash; then it clicked! Docs are now canonical and more important than ever in the AI era 💃💃💃!
 
