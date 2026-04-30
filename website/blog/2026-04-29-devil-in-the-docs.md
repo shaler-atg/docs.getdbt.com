@@ -14,7 +14,7 @@ is_featured: true
 
 There's another scene in *The Devil Wears Prada* that I find more compelling. If you haven't watched the movie, I won't spoil it for you. Miranda (the character modeled after Anna Wintour) turns to Andy (her assistant) and explains, with _complete_ patience, that the [cerulean blue](https://en.wikipedia.org/wiki/Cerulean) in Andy's "lumpy sweater" didn't come from nowhere &mdash; it can be traced back through fashion decisions made years earlier, by people who thought carefully about every choice, right down to the exact blue they would make the sweater in. The whole chain, invisible to Andy, was built on deliberate _curation_.
 
-That iconic scene reminds me of what documentation architecture feels like to me. Users (could be developers, analysts, data engineers, etc.) ask a question, get an answer, keep working. They don't need to see the decisions behind it &mdash; what to include, how to structure it, where the gaps are, what needs updating. But those decisions shape every answer and experience they get, especially the ones coming from AI.
+That iconic scene is how I'd describe documentation architecture. Users (perhaps a developer, analyst, data engineer) have a question, look at the docs, get an answer, keep working. They don't need to see the decisions behind it &mdash; what to include, how to structure it, where the gaps are, what needs updating. But those decisions shape every answer and experience they get, especially the ones coming from AI.
 
 This blog discusses how we as a docs team are trying to bring docs closer to users; and why that architecture matters more than ever in the AI era.
 
