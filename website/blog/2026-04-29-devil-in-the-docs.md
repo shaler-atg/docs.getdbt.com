@@ -91,7 +91,7 @@ The Book arrived. No context switch required.
 
 For analysts exploring a shared project, it means understanding what a model does without navigating to a separate tab. For teams working across different dbt setups, it means consistent, authoritative answers regardless of where they're working or who's asking. For the docs team, it means the work we put into writing and maintaining docs.getdbt.com is doing more than it was before &mdash; reaching users where they actually are.
 
-<Lightbox src="/img/blog/2026-04-30-the-devil-is-in-the-docs/dwp-wear-chanel.png" width="55%"title="Emily salty users are faster using the dbt MCP server with the docs tools than without" />
+<Lightbox src="/img/blog/2026-04-30-the-devil-is-in-the-docs/dwp-wear-chanel.png" width="55%"title="Emily loving that users are faster using the dbt MCP server with the docs tools than without" />
 
 ## What's next
 
