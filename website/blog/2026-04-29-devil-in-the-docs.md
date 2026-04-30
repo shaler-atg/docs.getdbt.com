@@ -12,7 +12,7 @@ is_featured: true
 > *"By all means, move at a glacier's pace."*
 > — Miranda Priestly, *The Devil Wears Prada*
 
-There's another scene in *The Devil Wears Prada* that I think about more than that one. If you haven't seen the it yet, I'll try not to spoil it for you. Miranda (the character modeled after Anna Wintour) turns to Andy (her assistant) and explains, with _complete_ patience, that the [cerulean blue](https://en.wikipedia.org/wiki/Cerulean) in Andy's "lumpy sweater" didn't come from nowhere &mdash; it's traced back through fashion decisions made years earlier, by people who thought carefully about every choice. The whole chain, invisible to Andy, was built on deliberate _curation_.
+There's another scene in *The Devil Wears Prada* that I find more compelling. If you haven't watched the movie, I won't spoil it for you. Miranda (the character modeled after Anna Wintour) turns to Andy (her assistant) and explains, with _complete_ patience, that the [cerulean blue](https://en.wikipedia.org/wiki/Cerulean) in Andy's "lumpy sweater" didn't come from nowhere &mdash; it can be traced back through fashion decisions made years earlier, by people who thought carefully about every choice, right down to the exact blue they would make the sweater in. The whole chain, invisible to Andy, was built on deliberate _curation_.
 
 That iconic scene reminds me of what documentation architecture feels like to me. Users (could be developers, analysts, data engineers, etc.) ask a question, get an answer, keep working. They don't need to see the decisions behind it &mdash; what to include, how to structure it, where the gaps are, what needs updating. But those decisions shape every answer and experience they get, especially the ones coming from AI.
 
