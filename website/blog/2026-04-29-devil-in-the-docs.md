@@ -1,12 +1,13 @@
 ---
 title: "The devil is in the docs"
-description: "The devil in the details and the details are the docs that we write."
+description: "The devil in the details and the details are the docs that we write. How we're bringing those decisions closer to users in the AI era."
 slug: the-devil-in-the-docs
 authors: [mirna_wong]
-tags: [ai, docs]
+tags: [ai, docs, mcp]
 hide_table_of_contents: false
 date: 2026-04-30
 is_featured: true
+image: /img/blog/2026-04-30-the-devil-is-in-the-docs/devil-in-the-docsv2.png
 ---
 
 > *"By all means, move at a glacier's pace."*
@@ -89,6 +90,8 @@ We also added the product docs toolset to dbt's [Developer agent](/docs/dbt-ai/d
 The Book arrived. No context switch required.
 
 For analysts exploring a shared project, it means understanding what a model does without navigating to a separate tab. For teams working across different dbt setups, it means consistent, authoritative answers regardless of where they're working or who's asking. For the docs team, it means the work we put into writing and maintaining docs.getdbt.com is doing more than it was before &mdash; reaching users where they actually are.
+
+<Lightbox src="/img/blog/2026-04-30-the-devil-is-in-the-docs/dwp-wear-chanel.png" width="55%"title="Emily salty users are faster using the dbt MCP server with the docs tools than without" />
 
 ## What's next
 
